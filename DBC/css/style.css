@@ -274,7 +274,14 @@ footer{
 }
 
 
-
+.header__social{
+    display: flex;
+    align-items: center;
+}
+.footer__social{
+    display: flex;
+    align-items: center;
+}
 .header__social img:nth-child(1) {
    margin-right: 10px;  
 }
