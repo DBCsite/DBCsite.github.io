@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedHome</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="home">
+        <div class="container">
+            <div class="nav__wrapper">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+                <div class="nav__menu">
+                    <ul>
+                        <li ><a href="#" class="menu__link-active">Главная</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="property.html" class="menu__link">Недвижимость</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="investment.html" class="menu__link">Инвестиции</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="about.html" class="menu__link">О компании</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#" class="menu__link">Полезная информация</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="contacts.html" class="menu__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="nav__profile">
+                    <div class="login">
+                        <img src="img/log_in.svg" alt="log_in">
+                        <a href="log_in.html" href="#">Вход</a>
+                    </div>
+                    <div class="currency">
+                        <select class="currency__input">
+                            <option value="">CZK</option>
+                            <option value="">RUB</option>
+                            <option value="">USD</option>
+                            <option value="">EUR</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="myBtn" class="header__burger">
+                    <img src="img/burger.svg" alt="menu">
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <div class="header__content">
+                    <div class="header__title">
+                        <h1>недвижимость<br>
+                            в Чехии</h1>
+                        <h2>Компания RedHome s.r.o.</h2>
+                        <div class="header__title-description">
+                            <p>Продажа недвижимости в Чехии</p>
+                            <p>Продажа квартир в Праге</p>
+                            <p>Продажа домов и земельных участков в Чехии</p>
+                        </div>
+                    </div>
+                    <div class="tabs">
+                        <div class="tabs-triggers">
+                            <a href="#tab-1" class="tabs-triggers__item">Покупка</a>
+                            <a href="#tab-2" class="tabs-triggers__item">Аренда</a>
+                        </div>
+                        <div class="tabs-content">
+                            <div id="tab-1" class="tabs-content__item">
+                                <select class="tabs__inputs">
+                                    <option value="#">- Тип недвижимости -</option>
+                                    <option value="#">Квартира</option>
+                                    <option value="#">Частный дом</option>
+                                </select>
+                                <select class="tabs__inputs">
+                                    <option value="#">- Регион -</option>
+                                    <option value="#">Московский</option>
+                                    <option value="#">Пражский</option>
+                                </select>
+                                <select class="tabs__inputs">
+                                    <option value="#">- Комнат -</option>
+                                    <option value="#">1</option>
+                                    <option value="#">2</option>
+                                    <option value="#">3 и более</option>
+                                </select>
+                                <select class="tabs__inputs">
+                                    <option value="#">- Состояние объекта -</option>
+                                    <option value="#">Хорошее</option>
+                                    <option value="#">Плохое</option>
+                                </select>
+                                <div class="tabs__price-inputs">
+                                    <input type="text" placeholder="Цена от">
+                                    <input type="text" placeholder="Цена до">
+                                </div>
+                                <a href="#" class="tabs__btn-buy">Искать</a>
+                            </div>
+                            <div id="tab-2" class="tabs-content__item">
+                                <select class="tabs__inputs">
+                                    <option value="#">- Тип недвижимости -</option>
+                                    <option value="#">Квартира</option>
+                                    <option value="#">Частный дом</option>
+                                </select>
+                                <select class="tabs__inputs">
+                                    <option value="#">- Регион -</option>
+                                    <option value="#">Московский</option>
+                                    <option value="#">Пражский</option>
+                                </select>
+                                <select class="tabs__inputs">
+                                    <option value="#">- Комнат -</option>
+                                    <option value="#">1</option>
+                                    <option value="#">2</option>
+                                    <option value="#">3 и более</option>
+                                </select>
+                                <select class="tabs__inputs">
+                                    <option value="#">- Состояние объекта -</option>
+                                    <option value="#">Хорошее</option>
+                                    <option value="#">Плохое</option>
+                                </select>
+                                <div class="tabs__price-inputs">
+                                    <input type="text" placeholder="Цена от">
+                                    <input type="text" placeholder="Цена до">
+                                </div>
+                                <a href="#" class="tabs__btn-buy">Искать</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="header__social">
+                    <a href="#" ><img src="img/instagram.svg" alt="instagram"></a>
+                    <a href="#" ><img src="img/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="img/email.svg" alt="email"></a>
+                </div>
+                <div class="header__feedback">
+                    <div class="feedback-mobile">
+                       <a href="callto:+420776419030"> <img src="img/mobile.svg" alt="mobile" class="mobile_none"> +420 776 419 030</a> 
+                    </div>
+                    <div class="feedback-whatsapp">
+                        <img src="img/whatsapp icon.svg" alt="WhatsApp"> <a href="https://api.whatsapp.com/send?phone=420776419030&text=%d0%94%d0%be%d0%b1%d1%80%d1%8b%d0%b9%20%d0%b4%d0%b5%d0%bd%d1%8c%2c%20%d0%bf%d0%b8%d1%88%d0%b8%20%d0%92%d0%b0%d0%bc%20%d1%81%20%d1%81%d0%b0%d0%b9%d1%82%d0%b0%20RedHome.eu%2c%20%d0%bc%d0%b5%d0%bd%d1%8f%20%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b5%d1%81%d1%83%d0%b5%d1%82%20%d0%bf%d0%be%d0%ba%d1%83%d0%bf%d0%ba%d0%b0%20%d0%bd%d0%b5%d0%b4%d0%b2%d0%b8%d0%b6%d0%b8%d0%bc%d0%be%d1%81%d1%82%d0%b8%20%d0%b2%20%d0%a7%d0%b5%d1%85%d0%b8%d0%b8.&source=&data=&app_absent=" class="whatsapp_none">WhatsApp</a> 
+                    </div>
+                    <div class="feedback-whatsapp">
+                        <a href="https://telegram.me/redhome_prague"><img src="img/telegram icon.svg" alt="Telegram"></a> <a href="https://telegram.me/redhome_prague" class="telegram_none">Telegram</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="content-wrapper">
+            <h2>НЕКОТОРЫЕ ФАКТЫ О НАС</h2>
+            <div class="about__cards">
+                <div class="about__cards-high">
+                    <div class="first_card card">
+                        <img src="img/1_card.svg" alt="image">
+                        <p class="big"><span class="large">13</span> лет</p>
+                        <p class="description">на рынке<br>
+                            недвижимости<br>
+                            в Чехии</p>
+                    </div>
+                    <div class="second_card card">
+                        <img src="img/2_card.svg" alt="image">
+                        <p class="big"><span class="large">425</span> сделок</p>
+                        <p class="description">успешно проведено<br>
+                            за всё время<br>
+                            работы компании</p>
+                    </div>
+                </div>
+                <div class="about__cards-bottom">
+                    <div class="third_card card">
+                        <img src="img/3_card.svg" alt="image">
+                        <p class="big"><span class="large">27</span> девелоперов</p>
+                        <p class="description">с которыми мы<br>
+                            успешно<br>
+                            сотрудничаем</p>
+                    </div>
+                    <div class="fourth_card card">
+                        <img src="img/4_card.svg" alt="image">
+                        <p class="big"><span class="large">100</span> % гарантия</p>
+                        <p class="description">чистоты сделки,<br>
+                            недвижимость перед<br>
+                            продажей проверяется</p>
+                    </div>
+                </div>
+                <div class="fifth_card card">
+                    <img src="img/4_card.svg" alt="image">
+                    <p><span class="large">VIP</span></p>
+                    <p class="description">Наши сотрудники<br>
+                        умеют работать<br>
+                        с VIP клиентами</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="choice">
+        <div class="content-wrapper">
+            <div class="choice__content">
+                <div class="choice-titles">
+                    <h2>Ищете жилье в Чехии?</h2>
+                    <p>Мы с радостью предлагаем Вам:</p>
+                    <h1>Бесплатный<br>
+                        подбор<br>
+                        недвижимости</h1>
+                </div>
+                <div class="request">
+                    <form action="#" class="form">
+                        <p class="form__title">ОСТАВИТЬ ЗАЯВКУ</p>
+                        <p class="form__subtitle">Наши специалисты ответят<br> 
+                            на Ваши вопросы по телефону</p>
+                        <input type="name" name="user_name" placeholder="ВАШЕ ИМЯ" class="form__input">
+                        <input type="tel" name="user_name" placeholder="НОМЕР ТЕЛЕФОНА" class="form__input">
+                        <div class="radio">
+                            <input type="radio" id="form-label_3" class="form__radio">
+                            <label for="form-label_3" class="radio__label">Я соглашаюсь <strong>на обработку</strong> <br>
+                                моих персональных данных</label>
+                        </div>
+                        <button class="form__button">ОТПРАВИТЬ</button>
+                        <p class="security">Ваши данные в безопасности!</p>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offers">
+        <div class="container">
+            <div class="offers__title">
+                <h1>ПРЕДЛОЖЕНИЯ</h1>
+            </div>
+            <div class="offers__items">
+                <div class="offer__items-high">
+                    <div class="offer__item"> 
+                        <div class="offer__item-text">
+                            <p class="offer__item-title">
+                                Квартира 2+kk
+                            </p>
+                            <p class="offer__item-name">
+                                Название района
+                            </p>
+                            <p class="offer__item-price">
+                                17 070 000 CZK
+                            </p>
+                        </div>
+                        <img src="img/bg_offer.jpg" alt="offer">
+                    </div>
+                    <div class="offer__item"> 
+                        <div class="offer__item-text">
+                            <p class="offer__item-title">
+                                Квартира 2+kk
+                            </p>
+                            <p class="offer__item-name">
+                                Название района
+                            </p>
+                            <p class="offer__item-price">
+                                17 070 000 CZK
+                            </p>
+                        </div>
+                        <img src="img/bg_offer.jpg" alt="offer">
+                    </div>
+                    <div class="offer__item"> 
+                        <div class="offer__item-text">
+                            <p class="offer__item-title">
+                                Квартира 2+kk
+                            </p>
+                            <p class="offer__item-name">
+                                Название района
+                            </p>
+                            <p class="offer__item-price">
+                                17 070 000 CZK
+                            </p>
+                        </div>
+                        <img src="img/bg_offer.jpg" alt="offer">
+                    </div>
+                    <div class="offer__item"> 
+                        <div class="offer__item-text">
+                            <p class="offer__item-title">
+                                Квартира 2+kk
+                            </p>
+                            <p class="offer__item-name">
+                                Название района
+                            </p>
+                            <p class="offer__item-price">
+                                17 070 000 CZK
+                            </p>
+                        </div>
+                        <img src="img/bg_offer.jpg" alt="offer">
+                    </div>
+                    <div class="offer__item"> 
+                        <div class="offer__item-text">
+                            <p class="offer__item-title">
+                                Квартира 2+kk
+                            </p>
+                            <p class="offer__item-name">
+                                Название района
+                            </p>
+                            <p class="offer__item-price">
+                                17 070 000 CZK
+                            </p>
+                        </div>
+                        <img src="img/bg_offer.jpg" alt="offer">
+                    </div>
+                </div>
+                <div class="offer__items-bottom">
+                    <div class="offer__item"> 
+                        <div class="offer__item-text">
+                            <p class="offer__item-title">
+                                Квартира 2+kk
+                            </p>
+                            <p class="offer__item-name">
+                                Название района
+                            </p>
+                            <p class="offer__item-price">
+                                17 070 000 CZK
+                            </p>
+                        </div>
+                        <img src="img/bg_offer.jpg" alt="offer">
+                    </div>
+                    <div class="offer__item"> 
+                        <div class="offer__item-text">
+                            <p class="offer__item-title">
+                                Квартира 2+kk
+                            </p>
+                            <p class="offer__item-name">
+                                Название района
+                            </p>
+                            <p class="offer__item-price">
+                                17 070 000 CZK
+                            </p>
+                        </div>
+                        <img src="img/bg_offer.jpg" alt="offer">
+                    </div>
+                    <div class="offer__item"> 
+                        <div class="offer__item-text">
+                            <p class="offer__item-title">
+                                Квартира 2+kk
+                            </p>
+                            <p class="offer__item-name">
+                                Название района
+                            </p>
+                            <p class="offer__item-price">
+                                17 070 000 CZK
+                            </p>
+                        </div>
+                        <img src="img/bg_offer.jpg" alt="offer">
+                    </div>
+                    <div class="offer__item"> 
+                        <div class="offer__item-text">
+                            <p class="offer__item-title">
+                                Квартира 2+kk
+                            </p>
+                            <p class="offer__item-name">
+                                Название района
+                            </p>
+                            <p class="offer__item-price">
+                                17 070 000 CZK
+                            </p>
+                        </div>
+                        <img src="img/bg_offer.jpg" alt="offer">
+                    </div>
+                    <div class="offer__item"> 
+                        <div class="offer__item-text">
+                            <p class="offer__item-title">
+                                Квартира 2+kk
+                            </p>
+                            <p class="offer__item-name">
+                                Название района
+                            </p>
+                            <p class="offer__item-price">
+                                17 070 000 CZK
+                            </p>
+                        </div>
+                        <img src="img/bg_offer.jpg" alt="offer">
+                    </div>
+                </div>
+            </div>
+            <div class="offers__btn">
+                <a href="#">ПОСМОТРЕТЬ ВСЕ</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="mortgage">
+        <div class="content-wrapper">
+            <div class="mortgage__main">
+                <div class="mortgage__text">
+                    <div class="mortgage__title">
+                        <h1>ИПОТЕКА</h1>
+                    </div>
+                    <div class="mortgage__subtitle">
+                        <h2>ОТ 3,6% ГОДОВЫХ</h2>
+                    </div>
+                    <div class="mortgage__description">
+                        <p class="mortgage-points">Для граждан СНГ</p>
+                        <p class="mortgage-points">Без ПМЖ в Чехии</p>
+                        <p class="mortgage-points">От 40% собственных средств</p>
+                        <p class="mortgage-points">В крупных чешских банках</p>
+                    </div>
+                </div>
+                <div class="request">
+                    <form action="#" class="form">
+                        <p class="form__title">ОСТАВИТЬ ЗАЯВКУ</p>
+                        <p class="form__subtitle">Наши специалисты ответят<br> 
+                            на Ваши вопросы по телефону</p>
+                        <input type="name" name="user_name" placeholder="ВАШЕ ИМЯ" class="form__input">
+                        <input type="tel" name="user_name" placeholder="НОМЕР ТЕЛЕФОНА" class="form__input">
+                        <div class="radio">
+                            <input type="radio" id="form-label_2" class="form__radio">
+                            <label for="form-label_2" class="radio__label">Я соглашаюсь <strong>на обработку</strong><br>
+                                моих персональных данных</label>
+                        </div>
+                        <button class="form__button">ОТПРАВИТЬ</button>
+                        <p class="security">Ваши данные в безопасности!</p>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="property">
+        <img src="img/property_photo.jpg" alt="the property">
+        <div class="property__text">
+            <div class="property__text-title">
+                <h2>Почему недвижимость в Чехии</h2>
+            </div>
+            <div class="property__text-subtitle">
+                <p class="property__text-description">Бесплатное образование в гос. университетах</p>
+                <p class="property__text-description">Самый низкий уровень безработицы в Европе, 2%</p>
+                <p class="property__text-description">Один из самых низких уровней преступности</p>
+                <p class="property__text-description">Высокий темп развития экономики</p>
+                <p class="property__text-description">Низкий уровень инфляции</p>
+                <p class="property__text-description">Низкие цены на продукты питания</p>
+                <p class="property__text-description">Собственная валюта, чешская крона</p>
+                <p class="property__text-description">Развитая инфраструктура и транспортное сообщение</p>
+                <p class="property__text-description">Развитая система здравоохранения</p>
+                <p class="property__text-description">Большие возможности для путешествий</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="content-wrapper">
+            <div class="footer__sides">
+                <div class="footer__l-side">
+                    <img src="img/logo_footer.svg" alt="logo" class="logo__footer">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156389.095202218!2d20.92111165723871!3d52.2328550425064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2z0JLQsNGA0YjQsNCy0LA!5e0!3m2!1sru!2spl!4v1600622549065!5m2!1sru!2spl" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="iframe-home"></iframe>
+                </div>
+                <div class="footer__r-side">
+                    <h2><span class="red">С 2006 ГОДА</span> НА РЫНКЕ
+                        НЕДВИЖИМОСТИ В ЧЕХИИ</h2>
+                        <div class="footer__info">
+                            <div class="info__high">
+                                <div class="info__high-l">
+                                    <div class="info__high-title">
+                                        <p>Полезная информация</p>
+                                    </div>
+                                    <div class="info__high-subtitle">
+                                        <a href="#">Инвестиции в недвижимость</a>
+                                        <a href="#">О компании RedHome s.r.o.</a>
+                                        <a href="#">Контакты</a>
+                                    </div>
+                                </div>
+                                <div class="info__high-r">
+                                    <div class="info__high-title">
+                                        <p>Наши телефоны</p>
+                                    </div>
+                                    <div class="info__high-subtitle">
+                                        <a href="#">Приём звонков: Пн-Пт с 8:30 до 18:00</a>
+                                        <a href="#">Офис в Праге: (+420) 776 419 030</a>
+                                        <div class="info__high-social">
+                                            <a href="#"><img src="img/telegram_footer.svg" alt="telegram">Telegram</a>
+                                            <a href="#"><img src="img/whatsapp_footer.svg" alt="whatsapp">WhatsApp</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="info__bottom">
+                                <div class="info__high-l">
+                                    <div class="info__high-title">
+                                        <p>Что вас интересует?</p>
+                                    </div>
+                                    <div class="info__high-subtitle">
+                                        <a href="#">Продажа недвижимости в Чехии</a>
+                                        <a href="#">Покупка недвижимости в Чехии</a>
+                                        <a href="#">Аренда недвижимости в Чехии</a>
+                                    </div>
+                                </div>
+                                <div class="info__high-r">
+                                    <div class="info__high-title">
+                                        <p>Наш адрес</p>
+                                    </div>
+                                    <div class="info__high-subtitle">
+                                        <a href="#">Pernerova 676/51 </a>
+                                        <a href="#">186 00 Praha 8 - Karlín</a>
+                                        <a href="#">Czech Republic </a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                </div>
+            </div>    
+            <div class="footer__rights">
+              <p>RedHome s.r.o. - Недвижимость в Чехии © 2020 | All rights reserved</p>
+                <a href="privacy_policy.html">Правила обработки персональных данных и политика конфиденциальности RedHome</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="myModal" class="mymodal">
+        <!-- Modal content -->
+        <div class="mymodal-content">
+          <div class="mymodal-header">
+            <span class="close">&times;</span>
+            <!-- <h2>Modal Header</h2> -->
+          </div>
+          <div class="mymodal-body">
+            <p><a href="home.html" class="mymodal-body__link">Главная</a></p>
+            <p><a href="investment.html" class="mymodal-body__link-active">Недвижимость</a></p>
+            <p><a href="investment.html" class="mymodal-body__link">Инвестиции</a></p>
+            <p><a href="about.html" class="mymodal-body__link">О компании</a></p>
+            <p><a href="#" class="mymodal-body__link">Полезная информация</a></p>
+            <p><a href="contacts.html" class="mymodal-body__link">Контакты</a></p>
+          </div>          
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
