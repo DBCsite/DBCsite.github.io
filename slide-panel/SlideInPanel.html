@@ -1,0 +1,1959 @@
+<html>
+<meta charset="UTF-8" />
+<head>
+<title>Цветовая анимация текста CSS</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style-slide.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/media.css">
+</head>
+<body>
+	<main class="cd-main-content">
+    <header class="header">
+      <div class="container">
+          <div class="header__menu">
+              <div class="header__burger"></div>
+              <div class="header__logo"><img src="../img/header-logo__media.svg" alt="logo"></div>
+              <nav class="menu">
+                  <ul class="menu__items">
+                      <li><a href="../home.html" class="menu__link">Главная</a></li>
+                      <li><a href="../news.html" class="menu__link active">Новости</a></li>
+                      <li><a href="../subapp.html" class="menu__link">Подприложения SFERA</a></li>
+                      <li><a href="#" class="menu__link">Положение компании</a></li>
+                      <li><a href="#" class="menu__link">O нас</a></li>
+                      <li><a href="https://forum.sfera.zone" class="menu__link">Форум</a></li>
+                      <li><a href="#" class="menu__link">Партнёры</a></li>
+                      <li><a href="#" class="menu__link">Вакансии</a></li>
+                      <li><a href="#" class="menu__link">Реквизиты</a></li>
+                  </ul>                    
+              </nav>
+              <div class="language">
+                  <ul class="language__main">
+                      <li>
+                          <a href="#"><img src="../img/language-switcher.svg" alt="switch-language"></a>
+                          <ul class="language__dropdown">
+                              <li><a href="#">Русский</a></li>
+                              <li><a href="#">English</a></li>
+                          </ul>
+                      </li>
+                  </ul>                       
+              </div>
+          </div>
+      </div>
+    </header>
+
+    <div class="news-wrapper bg__black-light">
+        <div class="container">
+            <div class="actual">
+                <h3>Актуально</h3>
+                <h2>Новости проекта SFERA.</h2>
+                <div class="actual__info">
+                    <div class="actual__info-img">
+                        <img src="../img/news/actual.png" alt="img">
+                    </div>
+                    <div class="actual__info-text">
+                        <p class="actual__info-title">
+                            Что нового в SFERA.
+                        </p>
+                        <p class="actual__info-date">
+                            15.10.2020
+                        </p>
+                        <p class="actual__info-description">
+                            Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. 
+                            При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, 
+                            а с ними трудности. И релиз переносится. Но наша цель неизменна: SFERA станет максимально функциональной и удобной.
+                        </p>
+                        <div class="actual__info-btn">
+                            <a href="#0" class="btn__blue cd-btn">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news__items">
+                <div class="news__object">
+                    <a href="#" class="cd-btn2"><img src="../img/news/object-1.png" alt="img" class="news__object-img"></a>
+                    <a href="#" class="cd-btn2"><p class="news__object-title">Лента SFERA: связующее звено подприложений платформы</p></a>
+                    <p class="news__object-description">
+                        <span class="gray-description">16.09.2020 |</span> Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. 
+                        Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные 
+                        алгоритмы на основе ваших интересов и оценок.
+                    </p>
+                </div>
+                <div class="news__object">
+                    <a href="#" class="cd-btn3"><img src="../img/news/object-2.png" alt="img" class="news__object-img"></a>
+                    <a href="#" class="cd-btn3"><p class="news__object-title">Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business</p></a>
+                    <p class="news__object-description">
+                        <span class="gray-description">09.09.2020 |</span> Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, 
+                        как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь.
+                    </p>
+                </div>
+                <div class="news__object">
+                    <a href="#" class="cd-btn4"><img src="../img/news/object-3.png" alt="img" class="news__object-img"></a>
+                    <a href="#" class="cd-btn4"><p class="news__object-title">Бизнес-мессенджер приложения Work & Business</p></a>
+                    <p class="news__object-description">
+                        <span class="gray-description">01.09.2020 |</span>  Как происходит взаимодействие потенциального работодателя и успешного кандидата в приложении Work & Business.
+                    </p>
+                </div>
+                <div class="news__object">
+                    <a href="#" class="cd-btn5"><img src="../img/news/object-4.png" alt="img" class="news__object-img"></a>
+                    <a href="#" class="cd-btn5"><p class="news__object-title">Обновление SFERA</p></a>
+                    <p class="news__object-description">
+                        <span class="gray-description">08.08.2020 |</span>  Использовать ASAP стало проще. Совсем недавно вышла новая 
+                        версия 0.8.6 на Android и 0.49 на iOS. А это значит, что основные проблемы и недочёты были исправлены в приложении 
+                        для обеих платформ.
+                    </p>
+                </div>
+                <div class="news__object">
+                    <a href="#" class="cd-btn6"><img src="../img/news/object-5.png" alt="img" class="news__object-img"></a>
+                    <a href="#" class="cd-btn6"><p class="news__object-title">Зачем нужен форум</p></a>
+                    <p class="news__object-description">
+                        <span class="gray-description">21.08.2020 |</span>  Наконец-то у проекта SFERA появился форум! Он находится на сайте forum.sfera.zone. Все интересующие вас вопросы, темы или идеи вы можете обсудить прямо здесь. Пишите об ошибках в работе приложения — и команда разработчиков их исправит. Любой ваш вопрос не останется незамеченным.
+                    </p>
+                </div>
+                <div class="news__object">
+                    <a href="#" class="cd-btn7"><img src="../img/news/object-6.png" alt="img" class="news__object-img"></a>
+                    <a href="#" class="cd-btn7"><p class="news__object-title">Что нового в SFERA</p></a>
+                    <p class="news__object-description">
+                        <span class="gray-description">18.08.2020 |</span>  Приложение SFERA не стоит на месте. С каждым новым обновлением пользоваться платформой становится намного проще и удобнее.
+                    </p>
+                </div>
+                <div class="news__object">
+                    <a href="#" class="cd-btn8"><img src="../img/news/object-7.png" alt="img" class="news__object-img"></a>
+                    <a href="#" class="cd-btn8"><p class="news__object-title">Как изменился ASAP</p></a>
+                    <p class="news__object-description">
+                        <span class="gray-description">31.07.2020 |</span>  Это случилось! Вышло долгожданное обновление ASAP для смартфонов на платформе iOS. Мы учли все недочёты и исправили ошибки. Изменения затронули дизайн иконок, панелей управления, различных окон и кнопок.
+                    </p>
+                </div>
+                <div class="news__object">
+                    <a href="#" class="cd-btn9"><img src="../img/news/object-8.png" alt="img" class="news__object-img"></a>
+                    <a href="#" class="cd-btn9"><p class="news__object-title">Как разработчики совершенствуют ASAP</p></a>
+                    <p class="news__object-description">
+                        <span class="gray-description">29.07.2020 |</span>  Наконец-то SFERA стала доступна и для Android! Теперь ASAP — центральный сервис онлайн-платформы SFERA — есть и в App Store, и в Play Market. И можно скачать альфа-версию мессенджера: он пока в стадии разработки. Идёт проверка всех основных функций.
+                    </p>
+                </div>
+                <div class="news__object">
+                    <a href="#" class="cd-btn10"><img src="../img/news/object-9.png" alt="img" class="news__object-img"></a>
+                    <a href="#" class="cd-btn10"><p class="news__object-title">ASAP. Устранение недочётов</p></a>
+                    <p class="news__object-description">
+                        <span class="gray-description">15.07.2020 |</span>  На днях мы представили альфа-версию многофункционального мессенджера ASAP. За несколько дней мобильное приложение успели скачать более 500 пользователей. В ходе тестирования выявлено 62 недочёта. Сейчас их в срочном порядке устраняют программисты компании.
+                    </p>
+                </div>
+            </div>
+            <div class="news__page-next">
+              <a href="#" class=" btn__blue">Следующая страница</a>
+            </div>            
+        </div>
+    </div>
+
+    <footer class="footer bg__black">
+      <div class="container">
+          <div class="footer__row-first">
+              <div class="footer__left-first">
+                  <h2>Проект SFERA</h2>
+                  <img src="../img/SFERA-logo.png" alt="SFERA-logo">
+              </div>
+              <div class="footer__right-first">                    
+                  <div class="footer__right-text">     
+                      <h3>Мы не будем менять мир,<br>
+                          Мы перепишем код.
+                      </h3>                   
+                      <p class="footer__right-title">Реквизиты</p>
+                      <p>ООО «СФЕРА» <br>
+                          ул. Индустриальная, д. 2 офис 24<br>
+                          350007, г. Краснодар,<br>
+                          Российская Федерация<br>
+                          ИНН 2309172383<br>
+                          КПП 230901001<br>
+                          ОГРН 1192375072933
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="footer__row-second">
+              <div class="row__second-text">
+                  <p>© Copyright 2019-2020 https://sfera.zone - Проект SFERA | Все права защищены ООО «СФЕРА»</p>                    
+              </div>
+              <div class="row__second-zest">
+                  <ul class="zest__list">
+                      <li>
+                          <a href="#"><img src="../img/zest-img.png" alt="zest"></a>
+                          <ul class="zest__dropdown">
+                              <li><img src="../img/zest-drop.png" alt=""></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </footer>
+		<!-- your content here -->
+	</main>
+
+  <!-- first panel -->
+	<div class="cd-panel from-right">
+		<div class="cd-panel-header">
+        <header class="header">
+          <div class="container">
+              <div class="header__menu">
+                  <div class="header__burger"></div>
+                  <div class="header__logo"><img src="../img/header-logo__media.svg" alt="logo"></div>
+                  <nav class="menu">
+                      <ul class="menu__items">
+                          <li><a href="../home.html" class="menu__link">Главная</a></li>
+                          <li><a href="../news.html" class="menu__link active">Новости</a></li>
+                          <li><a href="../subapp.html" class="menu__link">Подприложения SFERA</a></li>
+                          <li><a href="#" class="menu__link">Положение компании</a></li>
+                          <li><a href="#" class="menu__link">O нас</a></li>
+                          <li><a href="https://forum.sfera.zone" class="menu__link">Форум</a></li>
+                          <li><a href="#" class="menu__link">Партнёры</a></li>
+                          <li><a href="#" class="menu__link">Вакансии</a></li>
+                          <li><a href="#" class="menu__link">Реквизиты</a></li>
+                      </ul>                    
+                  </nav>
+                  <div class="language">
+                      <ul class="language__main">
+                          <li>
+                              <a href="#"><img src="../img/language-switcher.svg" alt="switch-language"></a>
+                              <ul class="language__dropdown">
+                                  <li><a href="#">Русский</a></li>
+                                  <li><a href="#">English</a></li>
+                              </ul>
+                          </li>
+                      </ul>                       
+                  </div>
+              </div>
+          </div>
+      </header>
+    </div>
+  
+		<div class="cd-panel-container">
+			<div class="cd-panel-content">
+        <div class="container">
+          <div class="panel__all">
+            <div class="panel__side-left">
+              <a href="#" class="cd-panel-close btn__blue">Назад</a>
+              <h2>Что нового в SFERA.</h2>
+              <div class="panel__info">
+                <p>15.10.2020</p>
+                <p>Светлана Якушина</p>
+              </div>
+              <div class="swipe__about">
+                <p>
+                    Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. 
+                    При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, 
+                    а с ними трудности. И релиз переносится. Но наша цель неизменна: SFERA станет максимально функциональной и удобной.
+                </p>
+                <img src="../img/news/actual.png" alt="img">
+              </div>
+              <div class="swipe__main">
+                <p class="swipe__main-title">О новостях</p>
+                  <p>
+                      1. В ASAP есть общий чат для общения и знакомств. Но для системы peer-to-peer нет двусторонних чатов. Поэтому, когда вы заходите, сервер проверяет, есть ли у вас новые сообщения. И приложение работает некорректно. Мы решаем эту проблему. <br><br>
+                      
+                      2. Мы хотим, чтобы звонок обрабатывался не на сервере, а на вашем телефоне. Это дешевле для нас и гарантирует вам конфиденциальность. Но сейчас это сделать сложно. А временный переход на обычный принцип реализации звонков займёт две недели. <br><br>
+                      
+                      3. У нас три подрядные компании программистов. CHOOSE делает одна из них, и её сотрудники указывают свои сроки. Их мы озвучиваем вам. Но, поскольку принцип работы подприложений инновационный и подрядчики  сталкиваются с ним впервые, возникают проблемы. Сегодня CHOOSE адаптирован для Android. И скоро будет на iOS. <br><br>
+                      
+                      4. Разработка BlackBox для iOS приостановлена, так как программист подрядчика находится в больнице с COVID-19. А версия для Android почти готова. Но мы приостановили работу, чтобы интегрировать BlackBox в ASAP. Однако по причинам, описанным в пункте 1, сейчас у нас недостаточно ресурсов. <br><br>
+                      
+                      5. У подрядчиков возникли проблемы с бэкенд-разработчиком дейтинг-сервиса MeetNet. Это не снимает с нас ответственности, но есть моменты, которые трудно предусмотреть. <br><br>
+                      
+                      Наверное, некоторых проблем мы бы избежали при наличии опыта. Но мы его только приобретаем. Мы сделали выводы. И меняем структуру команды и принципы работы, чтобы впредь ставить корректные сроки. <br><br>
+                      
+                      Кроме того, сейчас оценить всю проделанную нами работу невозможно. Поскольку довольно большая часть функционала готова более чем на 50%, но не подключена к системе. <br><br>
+    
+                      Мы не снижаем темп работы, а только наращиваем. Поэтому привлекаем специалистов к созданию платформы, особенно для iOS. И если вы знаете квалифицированных разработчиков от уровня middle+ и выше — напишите нам. <br><br>                       
+                  </p>
+                </div>
+                <div class="swipe__feedback">
+                  <div class="swipe__feedback-like">
+                      <a href="#">Понравилось 15</a>
+                  </div>
+                  <div class="swipe__feedback-share">
+                      <p>Поделитесь новостью</p>
+                      <a href="#"><img src="../img/fb-icon.svg" alt="facebooke-icon"></a>
+                      <a href=""><img src="../img/vk-icon.svg" alt="vkontakte-icon"></a>
+                      <a href=""><img src="../img/tw-icon.svg" alt="twitter-icon"></a>
+                  </div>
+              </div>
+            </div>
+            <div class="panel__side-right">
+              <div class="last__news bg__black">
+                <div class="last__news-content">
+                  <p class="last__news-title">Последние новости</p>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/1-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Что нового в SFERA.
+                      </p>
+                      <p>
+                        <span class="gray-description">16.10.2020 |</span>Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, а с ними трудности. И релиз...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/2-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Лента SFERA: связующее звено подприложений платформы
+                      </p>
+                      <p>
+                        <span class="gray-description">15.09.2020 |</span>Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные алгоритмы на основе ваших интересов и оценок...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/3-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business
+                      </p>
+                      <p>
+                        <span class="gray-description">09.09.2020 |</span>Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь....
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer bg__black">
+          <div class="container">
+              <div class="footer__row-first">
+                  <div class="footer__left-first">
+                      <h2>Проект SFERA</h2>
+                      <img src="../img/SFERA-logo.png" alt="SFERA-logo">
+                  </div>
+                  <div class="footer__right-first">                    
+                      <div class="footer__right-text">     
+                          <h3>Мы не будем менять мир,<br>
+                              Мы перепишем код.
+                          </h3>                   
+                          <p class="footer__right-title">Реквизиты</p>
+                          <p>ООО «СФЕРА» <br>
+                              ул. Индустриальная, д. 2 офис 24<br>
+                              350007, г. Краснодар,<br>
+                              Российская Федерация<br>
+                              ИНН 2309172383<br>
+                              КПП 230901001<br>
+                              ОГРН 1192375072933
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer__row-second">
+                  <div class="row__second-text">
+                      <p>© Copyright 2019-2020 https://sfera.zone - Проект SFERA | Все права защищены ООО «СФЕРА»</p>                    
+                  </div>
+                  <div class="row__second-zest">
+                      <ul class="zest__list">
+                          <li>
+                              <a href="#"><img src="../img/zest-img.png" alt="zest"></a>
+                              <ul class="zest__dropdown">
+                                  <li><img src="../img/zest-drop.png" alt=""></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        </footer>
+      </div> <!-- cd-panel-content -->
+    </div> <!-- cd-panel-container -->
+  </div> <!-- cd-panel -->
+
+  <!-- Second pandel -->
+  <div class="cd-panel2 from-right">
+		<div class="cd-panel-header">
+        <header class="header">
+          <div class="container">
+              <div class="header__menu">
+                  <div class="header__burger"></div>
+                  <div class="header__logo"><img src="../img/header-logo__media.svg" alt="logo"></div>
+                  <nav class="menu">
+                      <ul class="menu__items">
+                          <li><a href="../home.html" class="menu__link">Главная</a></li>
+                          <li><a href="../news.html" class="menu__link active">Новости</a></li>
+                          <li><a href="../subapp.html" class="menu__link">Подприложения SFERA</a></li>
+                          <li><a href="#" class="menu__link">Положение компании</a></li>
+                          <li><a href="#" class="menu__link">O нас</a></li>
+                          <li><a href="https://forum.sfera.zone" class="menu__link">Форум</a></li>
+                          <li><a href="#" class="menu__link">Партнёры</a></li>
+                          <li><a href="#" class="menu__link">Вакансии</a></li>
+                          <li><a href="#" class="menu__link">Реквизиты</a></li>
+                      </ul>                    
+                  </nav>
+                  <div class="language">
+                      <ul class="language__main">
+                          <li>
+                              <a href="#"><img src="../img/language-switcher.svg" alt="switch-language"></a>
+                              <ul class="language__dropdown">
+                                  <li><a href="#">Русский</a></li>
+                                  <li><a href="#">English</a></li>
+                              </ul>
+                          </li>
+                      </ul>                       
+                  </div>
+              </div>
+          </div>
+      </header>
+    </div>
+  
+		<div class="cd-panel-container">
+			<div class="cd-panel-content">
+        <div class="container">
+          <div class="panel__all">
+            <div class="panel__side-left">
+              <a href="#" class="cd-panel-close btn__blue">Назад</a>
+              <h2>Лента SFERA: связующее звено подприложений платформы</h2>
+              <div class="panel__info">
+                <p>16.09.2020</p>
+                <p>Михаил Кунижев</p>
+              </div>
+              <div class="swipe__about">
+                <p>
+                  Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные алгоритмы на основе ваших интересов и оценок.
+                </p>
+                <img src="../img/news/panel-2.png" alt="img">
+              </div>
+              <div class="swipe__main">
+                  <p>
+                    В том числе, в Ленте SFERA вы будете видеть деловые новости из приложения Work & Business, которое мы разрабатываем при вашем участии. Это, в первую очередь, публикации компаний, которыми вы интересовались ранее, а также отраслевые новости, на которые вы подписаны.                       
+                  </p>
+                  <p>
+                    Новые публикации можно просматривать в трёх форматах: <br>
+                    ●	Хронологическая новостная лента
+                  </p>
+                  <p>
+                    Классика соцсетей и новостных порталов. В Ленте вы видите всё, что публикуют интересные вам люди и бизнес-аккаунты, по мере того, как новости появляются в подприложениях платформы SFERA. <br>
+                    ●	Новостная лента по заданной геолокации
+                  </p>
+                  <p>
+                    Это не только новости выбранного вами заведения, например, любимого ресторана. Вы можете выбрать его как исходную точку, выставить любой радиус и получать новости всех людей и организаций, отметившихся в его пределах. <br>
+                    ●	Рейтинговая новостная лента
+                  </p>
+                  <p>
+                    Вы видите интересующие вас новости в порядке убывания рейтинга. И не только видите. Вы можете сами оценивать публикации по 5-балльной шкале. Это нужно для того, чтобы алгоритмы системы понимали, какие новости вам наиболее интересны и в дальнейшем показывали публикации с учётом ваших предпочтений. Это также поможет нашим алгоритмам распознавать качественный (развивающий) и некачественный контент, чтобы в дальнейшем ограничить выдачу публикаций, которые вам неприятны или наносят ущерб вашему интеллектуальному, духовному или физическому развитию.
+                  </p>
+                  <p>
+                    Независимо от формата, в котором вы предпочитаете просматривать новости, опубликованные в подприложениях платформы SFERА, вы можете комментировать их и обсуждать с другими пользователями. Все новые комментарии будут появляться на отдельной вкладке.
+                  </p>
+                </div>
+                <div class="swipe__feedback">
+                  <div class="swipe__feedback-like">
+                      <a href="#">Понравилось 15</a>
+                  </div>
+                  <div class="swipe__feedback-share">
+                      <p>Поделитесь новостью</p>
+                      <a href="#"><img src="../img/fb-icon.svg" alt="facebooke-icon"></a>
+                      <a href=""><img src="../img/vk-icon.svg" alt="vkontakte-icon"></a>
+                      <a href=""><img src="../img/tw-icon.svg" alt="twitter-icon"></a>
+                  </div>
+                </div>
+                <div class="swipe__toggle">
+                  <a href="#" class="swipe__toggle-prev btn__blue">Предыдущая статья</a>
+                  <a href="#" class="swipe__toggle-next btn__blue">Следующая статья</a>
+                </div>
+            </div>
+            <div class="panel__side-right">
+              <div class="last__news bg__black">
+                <div class="last__news-content">
+                  <p class="last__news-title">Последние новости</p>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/1-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Что нового в SFERA.
+                      </p>
+                      <p>
+                        <span class="gray-description">16.10.2020 |</span>Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, а с ними трудности. И релиз...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/2-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Лента SFERA: связующее звено подприложений платформы
+                      </p>
+                      <p>
+                        <span class="gray-description">15.09.2020 |</span>Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные алгоритмы на основе ваших интересов и оценок...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/3-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business
+                      </p>
+                      <p>
+                        <span class="gray-description">09.09.2020 |</span>Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь....
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer bg__black">
+          <div class="container">
+              <div class="footer__row-first">
+                  <div class="footer__left-first">
+                      <h2>Проект SFERA</h2>
+                      <img src="../img/SFERA-logo.png" alt="SFERA-logo">
+                  </div>
+                  <div class="footer__right-first">                    
+                      <div class="footer__right-text">     
+                          <h3>Мы не будем менять мир,<br>
+                              Мы перепишем код.
+                          </h3>                   
+                          <p class="footer__right-title">Реквизиты</p>
+                          <p>ООО «СФЕРА» <br>
+                              ул. Индустриальная, д. 2 офис 24<br>
+                              350007, г. Краснодар,<br>
+                              Российская Федерация<br>
+                              ИНН 2309172383<br>
+                              КПП 230901001<br>
+                              ОГРН 1192375072933
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer__row-second">
+                  <div class="row__second-text">
+                      <p>© Copyright 2019-2020 https://sfera.zone - Проект SFERA | Все права защищены ООО «СФЕРА»</p>                    
+                  </div>
+                  <div class="row__second-zest">
+                      <ul class="zest__list">
+                          <li>
+                              <a href="#"><img src="../img/zest-img.png" alt="zest"></a>
+                              <ul class="zest__dropdown">
+                                  <li><img src="../img/zest-drop.png" alt=""></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        </footer>
+			</div> <!-- cd-panel-content -->
+		</div> <!-- cd-panel-container -->
+  </div> <!-- cd-panel -->
+
+      <!-- Third pandel -->
+  <div class="cd-panel3 from-right">
+		<div class="cd-panel-header">
+        <header class="header">
+          <div class="container">
+              <div class="header__menu">
+                  <div class="header__burger"></div>
+                  <div class="header__logo"><img src="../img/header-logo__media.svg" alt="logo"></div>
+                  <nav class="menu">
+                      <ul class="menu__items">
+                          <li><a href="../home.html" class="menu__link">Главная</a></li>
+                          <li><a href="../news.html" class="menu__link active">Новости</a></li>
+                          <li><a href="../subapp.html" class="menu__link">Подприложения SFERA</a></li>
+                          <li><a href="#" class="menu__link">Положение компании</a></li>
+                          <li><a href="#" class="menu__link">O нас</a></li>
+                          <li><a href="https://forum.sfera.zone" class="menu__link">Форум</a></li>
+                          <li><a href="#" class="menu__link">Партнёры</a></li>
+                          <li><a href="#" class="menu__link">Вакансии</a></li>
+                          <li><a href="#" class="menu__link">Реквизиты</a></li>
+                      </ul>                    
+                  </nav>
+                  <div class="language">
+                      <ul class="language__main">
+                          <li>
+                              <a href="#"><img src="../img/language-switcher.svg" alt="switch-language"></a>
+                              <ul class="language__dropdown">
+                                  <li><a href="#">Русский</a></li>
+                                  <li><a href="#">English</a></li>
+                              </ul>
+                          </li>
+                      </ul>                       
+                  </div>
+              </div>
+          </div>
+      </header>
+    </div>
+  
+		<div class="cd-panel-container">
+			<div class="cd-panel-content">
+        <div class="container">
+          <div class="panel__all">
+            <div class="panel__side-left">
+              <a href="#" class="cd-panel-close btn__blue">Назад</a>
+              <h2>Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business</h2>
+              <div class="panel__info">
+                <p>09.09.2020</p>
+                <p>Михаил Кунижев</p>
+              </div>
+              <div class="swipe__about">
+                <p>
+                  Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь.
+                </p>
+                <img src="../img/news/panel-3.png" alt="img">
+              </div>
+              <div class="swipe__main">
+                  <p>
+                    Обратите внимание на следующие моменты.
+                  </p>
+                  <p class="swipe__main-title">
+                    Уровень компетенции
+                  </p>
+                  <p>
+                    Может быть начальным, продвинутым или профессиональным. Система оценивает и присваивает его сама, исходя из суммы значений ваших навыков.
+                  </p>
+                  <p class="swipe__main-title">
+                    Статус
+                  </p>
+                  <p>
+                    Здесь возможны три варианта: <br>
+                    ●	«Активный поиск». Вы видите работодателей, а они видят вас. <br>
+                    ●	«Просто смотрю». Вы видите работодателей, а они вас не видят. <br>
+                    ●	«Готов рассмотреть предложение». Вы не ищете работодателей, но можете получать их предложения.
+                  </p>
+
+                  <p class="swipe__main-title">
+                    Фото
+                  </p>
+                  <p>
+                    Кроме личных фото, вы можете загрузить любые графические или видеофайлы. Например, видеообращение к потенциальным работодателям.
+                  </p>
+
+                  <p class="swipe__main-title">
+                    Отклики
+                  </p>
+                  <p>
+                    Здесь вы увидите тех работодателей, сотрудничество с которыми вам рекомендует система, тех, кто сам хочет связаться с вами, и тех, сотрудничество с кем интересно вам. Для удобства эти работодатели разделены на три группы: <br>
+                    ●	«Рекомендованные». Система рекомендует вам вакансии на основании заявленных вами интересов и навыков. <br>
+                    ●	«Ожидает вашего отклика». Работодатели, которые пригласили вас на онлайн-собеседование. <br>
+                    ●	«Ваши запросы». Вакансии, на которые вы откликнулись, но ещё не получили приглашения.
+                  </p>
+                  <p>
+                    Тестирование предлагаемого интерфейса среди волонтёров проекта SFERA показало, что 93% опрошенных сочли его дружественным, интуитивно понятным и удобным.
+                  </p>
+                  <p>
+                    Поддержите разработку приложения Work & Business и заберите своё вознаграждение!
+                  </p>
+                </div>
+                <div class="swipe__feedback">
+                  <div class="swipe__feedback-like">
+                      <a href="#">Понравилось 15</a>
+                  </div>
+                  <div class="swipe__feedback-share">
+                      <p>Поделитесь новостью</p>
+                      <a href="#"><img src="../img/fb-icon.svg" alt="facebooke-icon"></a>
+                      <a href=""><img src="../img/vk-icon.svg" alt="vkontakte-icon"></a>
+                      <a href=""><img src="../img/tw-icon.svg" alt="twitter-icon"></a>
+                  </div>
+              </div>
+              <div class="swipe__toggle">
+                <a href="#" class="swipe__toggle-prev btn__blue">Предыдущая статья</a>
+                <a href="#" class="swipe__toggle-next btn__blue">Следующая статья</a>
+              </div>
+            </div>
+            <div class="panel__side-right">
+              <div class="last__news bg__black">
+                <div class="last__news-content">
+                  <p class="last__news-title">Последние новости</p>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/1-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Что нового в SFERA.
+                      </p>
+                      <p>
+                        <span class="gray-description">16.10.2020 |</span>Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, а с ними трудности. И релиз...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/2-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Лента SFERA: связующее звено подприложений платформы
+                      </p>
+                      <p>
+                        <span class="gray-description">15.09.2020 |</span>Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные алгоритмы на основе ваших интересов и оценок...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/3-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business
+                      </p>
+                      <p>
+                        <span class="gray-description">09.09.2020 |</span>Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь....
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer bg__black">
+          <div class="container">
+              <div class="footer__row-first">
+                  <div class="footer__left-first">
+                      <h2>Проект SFERA</h2>
+                      <img src="../img/SFERA-logo.png" alt="SFERA-logo">
+                  </div>
+                  <div class="footer__right-first">                    
+                      <div class="footer__right-text">     
+                          <h3>Мы не будем менять мир,<br>
+                              Мы перепишем код.
+                          </h3>                   
+                          <p class="footer__right-title">Реквизиты</p>
+                          <p>ООО «СФЕРА» <br>
+                              ул. Индустриальная, д. 2 офис 24<br>
+                              350007, г. Краснодар,<br>
+                              Российская Федерация<br>
+                              ИНН 2309172383<br>
+                              КПП 230901001<br>
+                              ОГРН 1192375072933
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer__row-second">
+                  <div class="row__second-text">
+                      <p>© Copyright 2019-2020 https://sfera.zone - Проект SFERA | Все права защищены ООО «СФЕРА»</p>                    
+                  </div>
+                  <div class="row__second-zest">
+                      <ul class="zest__list">
+                          <li>
+                              <a href="#"><img src="../img/zest-img.png" alt="zest"></a>
+                              <ul class="zest__dropdown">
+                                  <li><img src="../img/zest-drop.png" alt=""></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+          </footer>
+        </div> <!-- cd-panel-content -->
+      </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel -->
+
+      <!-- fourth pandel -->
+  <div class="cd-panel4 from-right">
+		<div class="cd-panel-header">
+        <header class="header">
+          <div class="container">
+              <div class="header__menu">
+                  <div class="header__burger"></div>
+                  <div class="header__logo"><img src="../img/header-logo__media.svg" alt="logo"></div>
+                  <nav class="menu">
+                      <ul class="menu__items">
+                          <li><a href="../home.html" class="menu__link">Главная</a></li>
+                          <li><a href="../news.html" class="menu__link active">Новости</a></li>
+                          <li><a href="../subapp.html" class="menu__link">Подприложения SFERA</a></li>
+                          <li><a href="#" class="menu__link">Положение компании</a></li>
+                          <li><a href="#" class="menu__link">O нас</a></li>
+                          <li><a href="https://forum.sfera.zone" class="menu__link">Форум</a></li>
+                          <li><a href="#" class="menu__link">Партнёры</a></li>
+                          <li><a href="#" class="menu__link">Вакансии</a></li>
+                          <li><a href="#" class="menu__link">Реквизиты</a></li>
+                      </ul>                    
+                  </nav>
+                  <div class="language">
+                      <ul class="language__main">
+                          <li>
+                              <a href="#"><img src="../img/language-switcher.svg" alt="switch-language"></a>
+                              <ul class="language__dropdown">
+                                  <li><a href="#">Русский</a></li>
+                                  <li><a href="#">English</a></li>
+                              </ul>
+                          </li>
+                      </ul>                       
+                  </div>
+                </div>
+            </div>
+        </header>
+      </div>
+  
+		<div class="cd-panel-container">
+			<div class="cd-panel-content">
+        <div class="container">
+          <div class="panel__all">
+            <div class="panel__side-left">
+              <a href="#" class="cd-panel-close btn__blue">Назад</a>
+              <h2>Бизнес-мессенджер приложения Work & Business</h2>
+              <div class="panel__info">
+                <p>01.09.2020</p>
+                <p>Михаил Кунижев</p>
+              </div>
+              <div class="swipe__about">
+                <p>
+                  Как происходит взаимодействие потенциального работодателя и успешного кандидата в приложении Work & Business.
+                </p>
+                <img src="../img/news/panel-4.png" alt="img">
+              </div>
+              <div class="swipe__main">
+                  <p>
+                    Предположим, что вы — работодатель или его представитель. Ваша задача — найти идеального кандидата для своей компании. Вы открываете приложение Work & Business, вводите исходные данные, внося информацию в графы поиска, и начинаете просматривать профили соискателей.
+                  </p>
+                  <p>
+                    Алгоритмы приложения устроены так, что в верхних строках поиска будут отображаться резюме тех соискателей, которые лучше всего удовлетворяют вашим требованиям. Посмотрите на это скрин-шот. В правом нижнем углу фотографий соискателей указан процент их соответствия требованиям, которые работодатель предъявляет к будущему сотруднику.
+                  </p>
+                  <p>
+                    Кстати, у тех, кто проспонсировал разработку приложения Work & Business и получил Серебряный, Золотой или Платиновый ID платформы SFERA, есть преимущество перед остальными пользователями. Их резюме выделяется на общем фоне, они более заметны и привлекают ваше внимание.
+                  </p>
+                  <p>
+                    Когда вы найдёте кандидата, который вас заинтересует, система автоматически создаст чат между вами и успешным кандидатом и переведёт вас в бизнес-мессенджер.
+                  </p>
+                  <p>
+                    В мессенджере вы будете видеть фото соискателя, его информацию о себе и последнее сообщение. Это сделано для того, чтобы вы не путались в кандидатах, если вы будете вести чат сразу с несколькими людьми.
+                  </p>
+                  <p >
+                    Кроме того, вы сможете редактировать поле «О себе» и делать в нём собственные пометки, чтобы ещё лучше различать кандидатов.
+                  </p>
+                  <p>
+                    Если кандидатов очень много, вы сможете разбить их на категории по любому удобному для вас принципу. Например, по прохождении ими этапов собеседования: I этап, II этап, III этап.
+                  </p>
+                  <p>
+                    Со стороны соискателя интерфейс чата выглядит точно так же. Только он видит не фото собственника бизнеса или сотрудника, с которым ведёт диалог, а логотип компании. И, соответственно, в верхнем поле отображается базовая информация о компании.
+                  </p>
+                  <p>
+                    Чтобы всё, что мы описали, скорее обрело воплощение, пожалуйста, поддержите разработку приложения Work & Business и заберите своё вознаграждение!
+                  </p>
+                </div>
+                <div class="swipe__feedback">
+                  <div class="swipe__feedback-like">
+                      <a href="#">Понравилось 15</a>
+                  </div>
+                  <div class="swipe__feedback-share">
+                      <p>Поделитесь новостью</p>
+                      <a href="#"><img src="../img/fb-icon.svg" alt="facebooke-icon"></a>
+                      <a href=""><img src="../img/vk-icon.svg" alt="vkontakte-icon"></a>
+                      <a href=""><img src="../img/tw-icon.svg" alt="twitter-icon"></a>
+                  </div>
+              </div>
+              <div class="swipe__toggle">
+                <a href="#" class="swipe__toggle-prev btn__blue">Предыдущая статья</a>
+                <a href="#" class="swipe__toggle-next btn__blue">Следующая статья</a>
+              </div>
+            </div>
+            <div class="panel__side-right">
+              <div class="last__news bg__black">
+                <div class="last__news-content">
+                  <p class="last__news-title">Последние новости</p>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/1-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Что нового в SFERA.
+                      </p>
+                      <p>
+                        <span class="gray-description">16.10.2020 |</span>Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, а с ними трудности. И релиз...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/2-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Лента SFERA: связующее звено подприложений платформы
+                      </p>
+                      <p>
+                        <span class="gray-description">15.09.2020 |</span>Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные алгоритмы на основе ваших интересов и оценок...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/3-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business
+                      </p>
+                      <p>
+                        <span class="gray-description">09.09.2020 |</span>Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь....
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer bg__black">
+          <div class="container">
+              <div class="footer__row-first">
+                  <div class="footer__left-first">
+                      <h2>Проект SFERA</h2>
+                      <img src="../img/SFERA-logo.png" alt="SFERA-logo">
+                  </div>
+                  <div class="footer__right-first">                    
+                      <div class="footer__right-text">     
+                          <h3>Мы не будем менять мир,<br>
+                              Мы перепишем код.
+                          </h3>                   
+                          <p class="footer__right-title">Реквизиты</p>
+                          <p>ООО «СФЕРА» <br>
+                              ул. Индустриальная, д. 2 офис 24<br>
+                              350007, г. Краснодар,<br>
+                              Российская Федерация<br>
+                              ИНН 2309172383<br>
+                              КПП 230901001<br>
+                              ОГРН 1192375072933
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer__row-second">
+                  <div class="row__second-text">
+                      <p>© Copyright 2019-2020 https://sfera.zone - Проект SFERA | Все права защищены ООО «СФЕРА»</p>                    
+                  </div>
+                  <div class="row__second-zest">
+                      <ul class="zest__list">
+                          <li>
+                              <a href="#"><img src="../img/zest-img.png" alt="zest"></a>
+                              <ul class="zest__dropdown">
+                                  <li><img src="../img/zest-drop.png" alt=""></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+          </footer>
+        </div> <!-- cd-panel-content -->
+      </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel -->
+
+
+      <!-- fiveth pandel -->
+  <div class="cd-panel5 from-right">  
+		<div class="cd-panel-header">
+        <header class="header">
+          <div class="container">
+              <div class="header__menu">
+                  <div class="header__burger"></div>
+                  <div class="header__logo"><img src="../img/header-logo__media.svg" alt="logo"></div>
+                  <nav class="menu">
+                      <ul class="menu__items">
+                          <li><a href="../home.html" class="menu__link">Главная</a></li>
+                          <li><a href="../news.html" class="menu__link active">Новости</a></li>
+                          <li><a href="../subapp.html" class="menu__link">Подприложения SFERA</a></li>
+                          <li><a href="#" class="menu__link">Положение компании</a></li>
+                          <li><a href="#" class="menu__link">O нас</a></li>
+                          <li><a href="https://forum.sfera.zone" class="menu__link">Форум</a></li>
+                          <li><a href="#" class="menu__link">Партнёры</a></li>
+                          <li><a href="#" class="menu__link">Вакансии</a></li>
+                          <li><a href="#" class="menu__link">Реквизиты</a></li>
+                      </ul>                    
+                  </nav>
+                  <div class="language">
+                      <ul class="language__main">
+                          <li>
+                              <a href="#"><img src="../img/language-switcher.svg" alt="switch-language"></a>
+                              <ul class="language__dropdown">
+                                  <li><a href="#">Русский</a></li>
+                                  <li><a href="#">English</a></li>
+                              </ul>
+                          </li>
+                      </ul>                       
+                  </div>
+                </div>
+              </div>
+           </header>
+       </div>
+  
+		<div class="cd-panel-container">
+			<div class="cd-panel-content">
+        <div class="container">
+          <div class="panel__all">
+            <div class="panel__side-left">
+              <a href="#" class="cd-panel-close btn__blue">Назад</a>
+              <h2>Обновление SFERA </h2>
+              <div class="panel__info">
+                <p>01.09.2020</p>
+                <p>Михаил Кунижев</p>
+              </div>
+              <div class="swipe__about">
+                <p>
+                  Использовать ASAP стало проще. Совсем недавно вышла новая версия 0.8.6 на Android и 0.49 на iOS. А это значит, что основные проблемы и недочёты были исправлены в приложении для обеих платформ.
+                </p>
+                <img src="../img/news/panel-5.png" alt="img">
+              </div>
+              <div class="swipe__main">
+                  <p class="swipe__main-title">
+                    Что изменилось на Android
+                  </p>
+                  <p>
+                    Есть хорошие новости для пользователей Android. Мы исправили ошибки и доработали приложение:
+                    ●	в программе больше нет проблем с голосовой связью на устройствах с 32-битной архитектурой ОС; <br>
+                    ●	решён вопрос с уведомлениями, которые не приходили, если пользователь был не в SFERA; <br>
+                    ●	загрузка меню теперь идёт намного быстрее; <br>
+                    ●	улучшено отображение некоторых экранов на менее мощных устройствах;<br>
+                    ●	в основное меню и меню диалогов добавлена инструкция на двух языках (на английском и русском). Достаточно прочесть её один раз, и она больше не появится.
+                  </p>
+                  <p>
+                    Кроме того, оптимизировано использование оперативной памяти.
+                  </p>
+                  <p>
+                    Когда вы найдёте кандидата, который вас заинтересует, система автоматически создаст чат между вами и успешным кандидатом и переведёт вас в бизнес-мессенджер.
+                  </p>
+                  <p>
+                    В мессенджере вы будете видеть фото соискателя, его информацию о себе и последнее сообщение. Это сделано для того, чтобы вы не путались в кандидатах, если вы будете вести чат сразу с несколькими людьми.
+                  </p>
+                  <p class="swipe__main-title">
+                    Что изменилось на iOS
+                  </p>
+                  <p>
+                    Пользователи iPhone тоже оценят обновления. Вот что изменилось для них:
+                    ●	исправлено отображение текста и некоторых элементов в проблемных местах; <br>
+                    ●	налажена возможность переключения Wi-Fi на мобильный интернет и наоборот;<br>
+                    ●	улучшено взаимодействие с базой данных устройства, и теперь пользователь без проблем  изменит данные при необходимости; <br>
+                    ●	устранены неисправности, связанные с отображением сообщений на iPhone 5S; <br>
+                    ●	а при сворачивании приложения больше не возникает проблем с интернет-соединением. У некоторых при пересылке объёмного текстового сообщения вылетало приложение. Теперь таких сбоев нет; <br>
+                    ●	улучшена видео- и аудиосвязь; <br>
+                    ●	теперь есть возможность блокировать и разблокировать чат, а при нежелательных контактах — игнорировать сообщения от заблокированных пользователей. 
+                  </p>
+                  <p>
+                    Поэтому использовать ASAP стало ещё удобнее. Обновления совершенствуют работу приложения. Чтобы убедиться в этом, скачайте SFERA project в App Store или Play Market. 
+                  </p>
+                </div>
+                <div class="swipe__feedback">
+                  <div class="swipe__feedback-like">
+                      <a href="#">Понравилось 15</a>
+                  </div>
+                  <div class="swipe__feedback-share">
+                      <p>Поделитесь новостью</p>
+                      <a href="#"><img src="../img/fb-icon.svg" alt="facebooke-icon"></a>
+                      <a href=""><img src="../img/vk-icon.svg" alt="vkontakte-icon"></a>
+                      <a href=""><img src="../img/tw-icon.svg" alt="twitter-icon"></a>
+                  </div>
+              </div>
+              <div class="swipe__toggle">
+                <a href="#" class="swipe__toggle-prev btn__blue">Предыдущая статья</a>
+                <a href="#" class="swipe__toggle-next btn__blue">Следующая статья</a>
+              </div>
+            </div>
+            <div class="panel__side-right">
+              <div class="last__news bg__black">
+                <div class="last__news-content">
+                  <p class="last__news-title">Последние новости</p>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/1-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Что нового в SFERA.
+                      </p>
+                      <p>
+                        <span class="gray-description">16.10.2020 |</span>Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, а с ними трудности. И релиз...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/2-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Лента SFERA: связующее звено подприложений платформы
+                      </p>
+                      <p>
+                        <span class="gray-description">15.09.2020 |</span>Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные алгоритмы на основе ваших интересов и оценок...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/3-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business
+                      </p>
+                      <p>
+                        <span class="gray-description">09.09.2020 |</span>Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь....
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer bg__black">
+          <div class="container">
+              <div class="footer__row-first">
+                  <div class="footer__left-first">
+                      <h2>Проект SFERA</h2>
+                      <img src="../img/SFERA-logo.png" alt="SFERA-logo">
+                  </div>
+                  <div class="footer__right-first">                    
+                      <div class="footer__right-text">     
+                          <h3>Мы не будем менять мир,<br>
+                              Мы перепишем код.
+                          </h3>                   
+                          <p class="footer__right-title">Реквизиты</p>
+                          <p>ООО «СФЕРА» <br>
+                              ул. Индустриальная, д. 2 офис 24<br>
+                              350007, г. Краснодар,<br>
+                              Российская Федерация<br>
+                              ИНН 2309172383<br>
+                              КПП 230901001<br>
+                              ОГРН 1192375072933
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer__row-second">
+                  <div class="row__second-text">
+                      <p>© Copyright 2019-2020 https://sfera.zone - Проект SFERA | Все права защищены ООО «СФЕРА»</p>                    
+                  </div>
+                  <div class="row__second-zest">
+                      <ul class="zest__list">
+                          <li>
+                              <a href="#"><img src="../img/zest-img.png" alt="zest"></a>
+                              <ul class="zest__dropdown">
+                                  <li><img src="../img/zest-drop.png" alt=""></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+          </footer>
+        </div> <!-- cd-panel-content -->
+      </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel -->
+
+
+       <!-- sixth pandel -->
+  <div class="cd-panel6 from-right">  
+		<div class="cd-panel-header">
+        <header class="header">
+          <div class="container">
+              <div class="header__menu">
+                  <div class="header__burger"></div>
+                  <div class="header__logo"><img src="../img/header-logo__media.svg" alt="logo"></div>
+                  <nav class="menu">
+                      <ul class="menu__items">
+                          <li><a href="../home.html" class="menu__link">Главная</a></li>
+                          <li><a href="../news.html" class="menu__link active">Новости</a></li>
+                          <li><a href="../subapp.html" class="menu__link">Подприложения SFERA</a></li>
+                          <li><a href="#" class="menu__link">Положение компании</a></li>
+                          <li><a href="#" class="menu__link">O нас</a></li>
+                          <li><a href="https://forum.sfera.zone" class="menu__link">Форум</a></li>
+                          <li><a href="#" class="menu__link">Партнёры</a></li>
+                          <li><a href="#" class="menu__link">Вакансии</a></li>
+                          <li><a href="#" class="menu__link">Реквизиты</a></li>
+                      </ul>                    
+                  </nav>
+                  <div class="language">
+                      <ul class="language__main">
+                          <li>
+                              <a href="#"><img src="../img/language-switcher.svg" alt="switch-language"></a>
+                              <ul class="language__dropdown">
+                                  <li><a href="#">Русский</a></li>
+                                  <li><a href="#">English</a></li>
+                              </ul>
+                          </li>
+                      </ul>                       
+                  </div>
+                </div>
+              </div>
+           </header>
+       </div>
+  
+		<div class="cd-panel-container">
+			<div class="cd-panel-content">
+        <div class="container">
+          <div class="panel__all">
+            <div class="panel__side-left">
+              <a href="#" class="cd-panel-close btn__blue">Назад</a>
+              <h2>Зачем нужен форум</h2>
+              <div class="panel__info">
+                <p>21.08.2020</p>
+                <p>Юлия Остапова</p>
+              </div>
+              <div class="swipe__about">
+                <p>
+                  Наконец-то у проекта SFERA появился форум! Он находится на сайте forum.sfera.zone. Все интересующие вас вопросы, темы или идеи вы можете обсудить прямо здесь. Пишите об ошибках в работе приложения — и команда разработчиков их исправит. Любой ваш вопрос не останется незамеченным.
+                </p>
+                <img src="../img/news/panel-6.png" alt="img">
+              </div>
+              <div class="swipe__main">
+                  <p>
+                    Для удобства форум проекта SFERA поделён на три раздела: основной (обсуждение любых тем по проекту), предложения и замечания, баги и ошибки в работе приложения. Всё это сделано, чтобы пользователи смогли получить помощь или совет. Поэтому, если у вас появится какой-либо вопрос, задайте его в одном из разделов.
+                  </p>
+                  <p>
+                    Зайдите на сайт <a href="http://forum.sfera.zone" class="btn__blue">forum.sfera.zone</a>  и зарегистрируйтесь на форуме! 
+                  </p>
+                </div>
+                <div class="swipe__feedback">
+                  <div class="swipe__feedback-like">
+                      <a href="#">Понравилось 15</a>
+                  </div>
+                  <div class="swipe__feedback-share">
+                      <p>Поделитесь новостью</p>
+                      <a href="#"><img src="../img/fb-icon.svg" alt="facebooke-icon"></a>
+                      <a href=""><img src="../img/vk-icon.svg" alt="vkontakte-icon"></a>
+                      <a href=""><img src="../img/tw-icon.svg" alt="twitter-icon"></a>
+                  </div>
+              </div>
+              <div class="swipe__toggle">
+                <a href="#" class="swipe__toggle-prev btn__blue">Предыдущая статья</a>
+                <a href="#" class="swipe__toggle-next btn__blue">Следующая статья</a>
+              </div>
+            </div>
+            <div class="panel__side-right">
+              <div class="last__news bg__black">
+                <div class="last__news-content">
+                  <p class="last__news-title">Последние новости</p>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/1-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Что нового в SFERA.
+                      </p>
+                      <p>
+                        <span class="gray-description">16.10.2020 |</span>Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, а с ними трудности. И релиз...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/2-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Лента SFERA: связующее звено подприложений платформы
+                      </p>
+                      <p>
+                        <span class="gray-description">15.09.2020 |</span>Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные алгоритмы на основе ваших интересов и оценок...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/3-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business
+                      </p>
+                      <p>
+                        <span class="gray-description">09.09.2020 |</span>Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь....
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer bg__black">
+          <div class="container">
+              <div class="footer__row-first">
+                  <div class="footer__left-first">
+                      <h2>Проект SFERA</h2>
+                      <img src="../img/SFERA-logo.png" alt="SFERA-logo">
+                  </div>
+                  <div class="footer__right-first">                    
+                      <div class="footer__right-text">     
+                          <h3>Мы не будем менять мир,<br>
+                              Мы перепишем код.
+                          </h3>                   
+                          <p class="footer__right-title">Реквизиты</p>
+                          <p>ООО «СФЕРА» <br>
+                              ул. Индустриальная, д. 2 офис 24<br>
+                              350007, г. Краснодар,<br>
+                              Российская Федерация<br>
+                              ИНН 2309172383<br>
+                              КПП 230901001<br>
+                              ОГРН 1192375072933
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer__row-second">
+                  <div class="row__second-text">
+                      <p>© Copyright 2019-2020 https://sfera.zone - Проект SFERA | Все права защищены ООО «СФЕРА»</p>                    
+                  </div>
+                  <div class="row__second-zest">
+                      <ul class="zest__list">
+                          <li>
+                              <a href="#"><img src="../img/zest-img.png" alt="zest"></a>
+                              <ul class="zest__dropdown">
+                                  <li><img src="../img/zest-drop.png" alt=""></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+          </footer>
+        </div> <!-- cd-panel-content -->
+      </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel -->
+
+        <!-- seventh pandel -->
+  <div class="cd-panel7 from-right">  
+		<div class="cd-panel-header">
+        <header class="header">
+          <div class="container">
+              <div class="header__menu">
+                  <div class="header__burger"></div>
+                  <div class="header__logo"><img src="../img/header-logo__media.svg" alt="logo"></div>
+                  <nav class="menu">
+                      <ul class="menu__items">
+                          <li><a href="../home.html" class="menu__link">Главная</a></li>
+                          <li><a href="../news.html" class="menu__link active">Новости</a></li>
+                          <li><a href="../subapp.html" class="menu__link">Подприложения SFERA</a></li>
+                          <li><a href="#" class="menu__link">Положение компании</a></li>
+                          <li><a href="#" class="menu__link">O нас</a></li>
+                          <li><a href="https://forum.sfera.zone" class="menu__link">Форум</a></li>
+                          <li><a href="#" class="menu__link">Партнёры</a></li>
+                          <li><a href="#" class="menu__link">Вакансии</a></li>
+                          <li><a href="#" class="menu__link">Реквизиты</a></li>
+                      </ul>                    
+                  </nav>
+                  <div class="language">
+                      <ul class="language__main">
+                          <li>
+                              <a href="#"><img src="../img/language-switcher.svg" alt="switch-language"></a>
+                              <ul class="language__dropdown">
+                                  <li><a href="#">Русский</a></li>
+                                  <li><a href="#">English</a></li>
+                              </ul>
+                          </li>
+                      </ul>                       
+                  </div>
+                </div>
+              </div>
+           </header>
+       </div>
+  
+		<div class="cd-panel-container">
+			<div class="cd-panel-content">
+        <div class="container">
+          <div class="panel__all">
+            <div class="panel__side-left">
+              <a href="#" class="cd-panel-close btn__blue">Назад</a>
+              <h2>Что нового в SFERA</h2>
+              <div class="panel__info">
+                <p>18.08.2020</p>
+                <p>Юлия Остапова</p>
+              </div>
+              <div class="swipe__about">
+                <p>
+                  Приложение SFERA не стоит на месте. С каждым новым обновлением пользоваться платформой становится намного проще и удобнее. 
+                </p>
+                <img src="../img/news/panel-7.png" alt="img">
+              </div>
+              <div class="swipe__main">
+                  <p>
+                    Для удобства форум проекта SFERA поделён на три раздела: основной (обсуждение любых тем по проекту), предложения и замечания, баги и ошибки в работе приложения. Всё это сделано, чтобы пользователи смогли получить помощь или совет. Поэтому, если у вас появится какой-либо вопрос, задайте его в одном из разделов.
+                  </p>
+                  <p>
+                    Совсем недавно для смартфонов на платформе iOS были исправлены основные ошибки в приложении: <br>
+                    ●	устранено ненужное обучение; <br>
+                    ●	изменено отображение однострочного сообщения в групповых чатах; <br>
+                    ●	при успешной регистрации на iPhone SE первого поколения ваш ID больше не показывается; <br>
+                    ●	исправлен поиск в оптимизации контактов; <br>
+                    ●	любые изменения пароля теперь отображены в настройках; <br>
+                    ●	решен вопрос с долгим нажатием и неправильным выводом сообщения; <br>
+                    ●	при регистрации на iPhone SE первого поколения не возникает проблем с работой клавиатуры; <br>
+                    ●	исправлена логика поиска пользователя по его ID; <br>
+                    ●	для комфортного использования приложения улучшено отображение системных сообщений в групповых чатах.
+                  </p>
+                  <p>
+                    Оптимизированы некоторые функции: <br>
+                    ●	улучшена работа голосовых сообщений; <br>
+                    ●	усовершенствован список чатов, а также алгоритмы поиска. <br>
+                  </p>
+                  <p>Скачивайте SFERA project в App Store и тестируйте его последнюю версию. </p>
+                </div>
+                <div class="swipe__feedback">
+                  <div class="swipe__feedback-like">
+                      <a href="#">Понравилось 15</a>
+                  </div>
+                  <div class="swipe__feedback-share">
+                      <p>Поделитесь новостью</p>
+                      <a href="#"><img src="../img/fb-icon.svg" alt="facebooke-icon"></a>
+                      <a href=""><img src="../img/vk-icon.svg" alt="vkontakte-icon"></a>
+                      <a href=""><img src="../img/tw-icon.svg" alt="twitter-icon"></a>
+                  </div>
+              </div>
+              <div class="swipe__toggle">
+                <a href="#" class="swipe__toggle-prev btn__blue">Предыдущая статья</a>
+                <a href="#" class="swipe__toggle-next btn__blue">Следующая статья</a>
+              </div>
+            </div>
+            <div class="panel__side-right">
+              <div class="last__news bg__black">
+                <div class="last__news-content">
+                  <p class="last__news-title">Последние новости</p>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/1-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Что нового в SFERA.
+                      </p>
+                      <p>
+                        <span class="gray-description">16.10.2020 |</span>Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, а с ними трудности. И релиз...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/2-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Лента SFERA: связующее звено подприложений платформы
+                      </p>
+                      <p>
+                        <span class="gray-description">15.09.2020 |</span>Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные алгоритмы на основе ваших интересов и оценок...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/3-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business
+                      </p>
+                      <p>
+                        <span class="gray-description">09.09.2020 |</span>Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь....
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer bg__black">
+          <div class="container">
+              <div class="footer__row-first">
+                  <div class="footer__left-first">
+                      <h2>Проект SFERA</h2>
+                      <img src="../img/SFERA-logo.png" alt="SFERA-logo">
+                  </div>
+                  <div class="footer__right-first">                    
+                      <div class="footer__right-text">     
+                          <h3>Мы не будем менять мир,<br>
+                              Мы перепишем код.
+                          </h3>                   
+                          <p class="footer__right-title">Реквизиты</p>
+                          <p>ООО «СФЕРА» <br>
+                              ул. Индустриальная, д. 2 офис 24<br>
+                              350007, г. Краснодар,<br>
+                              Российская Федерация<br>
+                              ИНН 2309172383<br>
+                              КПП 230901001<br>
+                              ОГРН 1192375072933
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer__row-second">
+                  <div class="row__second-text">
+                      <p>© Copyright 2019-2020 https://sfera.zone - Проект SFERA | Все права защищены ООО «СФЕРА»</p>                    
+                  </div>
+                  <div class="row__second-zest">
+                      <ul class="zest__list">
+                          <li>
+                              <a href="#"><img src="../img/zest-img.png" alt="zest"></a>
+                              <ul class="zest__dropdown">
+                                  <li><img src="../img/zest-drop.png" alt=""></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+          </footer>
+        </div> <!-- cd-panel-content -->
+      </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel -->
+          
+
+      <!-- eighth pandel -->
+  <div class="cd-panel8 from-right">  
+		<div class="cd-panel-header">
+        <header class="header">
+          <div class="container">
+              <div class="header__menu">
+                  <div class="header__burger"></div>
+                  <div class="header__logo"><img src="../img/header-logo__media.svg" alt="logo"></div>
+                  <nav class="menu">
+                      <ul class="menu__items">
+                          <li><a href="../home.html" class="menu__link">Главная</a></li>
+                          <li><a href="../news.html" class="menu__link active">Новости</a></li>
+                          <li><a href="../subapp.html" class="menu__link">Подприложения SFERA</a></li>
+                          <li><a href="#" class="menu__link">Положение компании</a></li>
+                          <li><a href="#" class="menu__link">O нас</a></li>
+                          <li><a href="https://forum.sfera.zone" class="menu__link">Форум</a></li>
+                          <li><a href="#" class="menu__link">Партнёры</a></li>
+                          <li><a href="#" class="menu__link">Вакансии</a></li>
+                          <li><a href="#" class="menu__link">Реквизиты</a></li>
+                      </ul>                    
+                  </nav>
+                  <div class="language">
+                      <ul class="language__main">
+                          <li>
+                              <a href="#"><img src="../img/language-switcher.svg" alt="switch-language"></a>
+                              <ul class="language__dropdown">
+                                  <li><a href="#">Русский</a></li>
+                                  <li><a href="#">English</a></li>
+                              </ul>
+                          </li>
+                      </ul>                       
+                  </div>
+                </div>
+              </div>
+           </header>
+       </div>
+  
+		<div class="cd-panel-container">
+			<div class="cd-panel-content">
+        <div class="container">
+          <div class="panel__all">
+            <div class="panel__side-left">
+              <a href="#" class="cd-panel-close btn__blue">Назад</a>
+              <h2>Как изменился ASAP</h2>
+              <div class="panel__info">
+                <p>31.07.2020</p>
+                <p>Юлия Остапова</p>
+              </div>
+              <div class="swipe__about">
+                <p>
+                  Это случилось! Вышло долгожданное обновление ASAP для смартфонов на платформе iOS. Мы учли все недочёты и исправили ошибки. Изменения затронули дизайн иконок, панелей управления, различных окон и кнопок. 
+                </p>
+                <img src="../img/news/panel-8.png" alt="img">
+              </div>
+              <div class="swipe__main">
+                  <p class="swipe__main-title">
+                    Что нового в дизайне
+                  </p>
+                  <p>
+                    Мы улучшили дизайн приложения и избавились от многих ненужных функций. И достаточно просто свайпнуть, чтобы свернуть клавиатуру или вернуться на предыдущий экран. Изменился и внешний облик. Цвет поля поиска стал серым, а на обозначении числа непрочитанных сообщений появилась тень. Кроме того, дизайн кнопки вызова и иконки закреплённого сообщения исправлены.
+                  </p>
+                  <p class="swipe__main-title">
+                    Новые функции и исправленные ошибки
+                  </p>
+                  <p>
+                    Например, появилась функция выключения микрофона при аудиозвонке, стал возможен голосовой ввод сообщений. Теперь исходящий звонок завершается при сбросе входящего. Также исправлены отображения никнейма и ID при совершении входящего звонка. Появились обозначения статуса сообщения (отправлено, доставлено, прочитано).
+                  </p>
+                  <p class="swipe__main-title">
+                    Что нового в чатах
+                  </p>
+                  <p>
+                    И это далеко не всё. Если раньше пропадала возможность отправить сообщение или прикрепить файлы, то теперь эта ошибка устранена. Больше не отменяется действие «переслать сообщение». А ещё изменилось отображение окна с приёмом заявки на добавление в контакты.
+                  </p>
+                  <p>
+                    Также мы предусмотрели, чтобы после стирания текста при создании чата аватары пользователей больше не пропадали. А для более комфортного общения зафиксировали их вверху слева. Помимо этого, при повторном входе в чат сообщения больше не пропадают. И сам список чатов обновляется корректно: новые сообщения поднимаются на первое место.
+                  </p>
+                  <p>
+                    Поэтому теперь пользоваться ASAP стало еще удобнее. С каждым обновлением приложение подстраивается под его пользователей. Мы стремимся создать комфортный мессенджер без лишних функций. А чтобы оценить альфа-версию ASAP, введите в App Store или Play Market слова "SFERA project" и скачайте её.
+                  </p>
+                </div>
+                <div class="swipe__feedback">
+                  <div class="swipe__feedback-like">
+                      <a href="#">Понравилось 15</a>
+                  </div>
+                  <div class="swipe__feedback-share">
+                      <p>Поделитесь новостью</p>
+                      <a href="#"><img src="../img/fb-icon.svg" alt="facebooke-icon"></a>
+                      <a href=""><img src="../img/vk-icon.svg" alt="vkontakte-icon"></a>
+                      <a href=""><img src="../img/tw-icon.svg" alt="twitter-icon"></a>
+                  </div>
+              </div>
+              <div class="swipe__toggle">
+                <a href="#" class="swipe__toggle-prev btn__blue">Предыдущая статья</a>
+                <a href="#" class="swipe__toggle-next btn__blue">Следующая статья</a>
+              </div>
+            </div>
+            <div class="panel__side-right">
+              <div class="last__news bg__black">
+                <div class="last__news-content">
+                  <p class="last__news-title">Последние новости</p>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/1-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Что нового в SFERA.
+                      </p>
+                      <p>
+                        <span class="gray-description">16.10.2020 |</span>Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, а с ними трудности. И релиз...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/2-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Лента SFERA: связующее звено подприложений платформы
+                      </p>
+                      <p>
+                        <span class="gray-description">15.09.2020 |</span>Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные алгоритмы на основе ваших интересов и оценок...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/3-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business
+                      </p>
+                      <p>
+                        <span class="gray-description">09.09.2020 |</span>Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь....
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer bg__black">
+          <div class="container">
+              <div class="footer__row-first">
+                  <div class="footer__left-first">
+                      <h2>Проект SFERA</h2>
+                      <img src="../img/SFERA-logo.png" alt="SFERA-logo">
+                  </div>
+                  <div class="footer__right-first">                    
+                      <div class="footer__right-text">     
+                          <h3>Мы не будем менять мир,<br>
+                              Мы перепишем код.
+                          </h3>                   
+                          <p class="footer__right-title">Реквизиты</p>
+                          <p>ООО «СФЕРА» <br>
+                              ул. Индустриальная, д. 2 офис 24<br>
+                              350007, г. Краснодар,<br>
+                              Российская Федерация<br>
+                              ИНН 2309172383<br>
+                              КПП 230901001<br>
+                              ОГРН 1192375072933
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer__row-second">
+                  <div class="row__second-text">
+                      <p>© Copyright 2019-2020 https://sfera.zone - Проект SFERA | Все права защищены ООО «СФЕРА»</p>                    
+                  </div>
+                  <div class="row__second-zest">
+                      <ul class="zest__list">
+                          <li>
+                              <a href="#"><img src="../img/zest-img.png" alt="zest"></a>
+                              <ul class="zest__dropdown">
+                                  <li><img src="../img/zest-drop.png" alt=""></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+          </footer>
+        </div> <!-- cd-panel-content -->
+      </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel -->
+
+    <!-- nine pandel -->
+  <div class="cd-panel9 from-right">  
+		<div class="cd-panel-header">
+        <header class="header">
+          <div class="container">
+              <div class="header__menu">
+                  <div class="header__burger"></div>
+                  <div class="header__logo"><img src="../img/header-logo__media.svg" alt="logo"></div>
+                  <nav class="menu">
+                      <ul class="menu__items">
+                          <li><a href="../home.html" class="menu__link">Главная</a></li>
+                          <li><a href="../news.html" class="menu__link active">Новости</a></li>
+                          <li><a href="../subapp.html" class="menu__link">Подприложения SFERA</a></li>
+                          <li><a href="#" class="menu__link">Положение компании</a></li>
+                          <li><a href="#" class="menu__link">O нас</a></li>
+                          <li><a href="https://forum.sfera.zone" class="menu__link">Форум</a></li>
+                          <li><a href="#" class="menu__link">Партнёры</a></li>
+                          <li><a href="#" class="menu__link">Вакансии</a></li>
+                          <li><a href="#" class="menu__link">Реквизиты</a></li>
+                      </ul>                    
+                  </nav>
+                  <div class="language">
+                      <ul class="language__main">
+                          <li>
+                              <a href="#"><img src="../img/language-switcher.svg" alt="switch-language"></a>
+                              <ul class="language__dropdown">
+                                  <li><a href="#">Русский</a></li>
+                                  <li><a href="#">English</a></li>
+                              </ul>
+                          </li>
+                      </ul>                       
+                  </div>
+                </div>
+              </div>
+           </header>
+       </div>
+  
+		<div class="cd-panel-container">
+			<div class="cd-panel-content">
+        <div class="container">
+          <div class="panel__all">
+            <div class="panel__side-left">
+              <a href="#" class="cd-panel-close btn__blue">Назад</a>
+              <h2>Как разработчики совершенствуют ASAP</h2>
+              <div class="panel__info">
+                <p>29.07.2020</p>
+                <p>Юлия Остапова</p>
+              </div>
+              <div class="swipe__about">
+                <p>
+                  Наконец-то SFERA стала доступна и для Android! Теперь ASAP — центральный сервис онлайн-платформы SFERA — есть и в App Store, и в Play Market. И можно скачать альфа-версию мессенджера: он пока в стадии разработки. Идёт проверка всех основных функций.
+                </p>
+                <img src="../img/news/panel-9.png" alt="img">
+              </div>
+              <div class="swipe__main">
+                  <p>
+                    Но это ненадолго. Разработчики исправляют ошибки и совершенствуют ASAP. Приложение должно стать не просто мессенджером с набором базовых функций, но и достойной альтернативой общению в соцсетях. Именно такая задача стоит перед командой разработчиков. Они выпускают обновления, и ASAP становится всё лучше. 
+                  </p>
+                  <p>
+                    Особенность мессенджера в том, что он обладает новейшими функциями и максимально удобен для коммуникации. А также ASAP прост в использовании. В этом приложении диалоги можно структурировать наиболее удобным для вас образом. Организовывать чёткую и лаконичную навигацию между разделами. Есть возможность скрывать чаты с помощью пароля. Ещё одна полезная функция — это вести видеоконференцию с демонстрацией двух экранов. Кроме того, доступна запись звонка.
+                  </p>
+                  <p>
+                    Чтобы воплотить всё это, нужно постоянно работать. Вот почему важны отзывы об альфа-версии приложения. Они позволяют выявлять ошибки и недочёты. И вы поможете создать максимально удобный и надежный мессенджер. Это действительно важно.
+                  </p>
+                  <p>
+                    Сообщайте обо всех недочётах и сбоях в чате ASAP с основателем. Указывайте модель своего телефона. А чтобы мессенджер корректно функционировал, убедитесь, что у вас установлена его последняя версия — 0.82.
+                  </p>
+                  <p>
+                    Заранее благодарим за помощь в улучшении ASAP и извиняемся за возможные неудобства в работе приложения. Надеемся на ваше понимание и обратную связь.
+                  </p>
+                </div>
+                <div class="swipe__feedback">
+                  <div class="swipe__feedback-like">
+                      <a href="#">Понравилось 15</a>
+                  </div>
+                  <div class="swipe__feedback-share">
+                      <p>Поделитесь новостью</p>
+                      <a href="#"><img src="../img/fb-icon.svg" alt="facebooke-icon"></a>
+                      <a href=""><img src="../img/vk-icon.svg" alt="vkontakte-icon"></a>
+                      <a href=""><img src="../img/tw-icon.svg" alt="twitter-icon"></a>
+                  </div>
+              </div>
+              <div class="swipe__toggle">
+                <a href="#" class="swipe__toggle-prev btn__blue">Предыдущая статья</a>
+                <a href="#" class="swipe__toggle-next btn__blue">Следующая статья</a>
+              </div>
+            </div>
+            <div class="panel__side-right">
+              <div class="last__news bg__black">
+                <div class="last__news-content">
+                  <p class="last__news-title">Последние новости</p>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/1-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Что нового в SFERA.
+                      </p>
+                      <p>
+                        <span class="gray-description">16.10.2020 |</span>Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, а с ними трудности. И релиз...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/2-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Лента SFERA: связующее звено подприложений платформы
+                      </p>
+                      <p>
+                        <span class="gray-description">15.09.2020 |</span>Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные алгоритмы на основе ваших интересов и оценок...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/3-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business
+                      </p>
+                      <p>
+                        <span class="gray-description">09.09.2020 |</span>Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь....
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer bg__black">
+          <div class="container">
+              <div class="footer__row-first">
+                  <div class="footer__left-first">
+                      <h2>Проект SFERA</h2>
+                      <img src="../img/SFERA-logo.png" alt="SFERA-logo">
+                  </div>
+                  <div class="footer__right-first">                    
+                      <div class="footer__right-text">     
+                          <h3>Мы не будем менять мир,<br>
+                              Мы перепишем код.
+                          </h3>                   
+                          <p class="footer__right-title">Реквизиты</p>
+                          <p>ООО «СФЕРА» <br>
+                              ул. Индустриальная, д. 2 офис 24<br>
+                              350007, г. Краснодар,<br>
+                              Российская Федерация<br>
+                              ИНН 2309172383<br>
+                              КПП 230901001<br>
+                              ОГРН 1192375072933
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer__row-second">
+                  <div class="row__second-text">
+                      <p>© Copyright 2019-2020 https://sfera.zone - Проект SFERA | Все права защищены ООО «СФЕРА»</p>                    
+                  </div>
+                  <div class="row__second-zest">
+                      <ul class="zest__list">
+                          <li>
+                              <a href="#"><img src="../img/zest-img.png" alt="zest"></a>
+                              <ul class="zest__dropdown">
+                                  <li><img src="../img/zest-drop.png" alt=""></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+          </footer>
+        </div> <!-- cd-panel-content -->
+      </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel -->
+
+    <!-- tenth pandel -->
+  <div class="cd-panel10 from-right">  
+		<div class="cd-panel-header">
+        <header class="header">
+          <div class="container">
+              <div class="header__menu">
+                  <div class="header__burger"></div>
+                  <div class="header__logo"><img src="../img/header-logo__media.svg" alt="logo"></div>
+                  <nav class="menu">
+                      <ul class="menu__items">
+                          <li><a href="../home.html" class="menu__link">Главная</a></li>
+                          <li><a href="../news.html" class="menu__link active">Новости</a></li>
+                          <li><a href="../subapp.html" class="menu__link">Подприложения SFERA</a></li>
+                          <li><a href="#" class="menu__link">Положение компании</a></li>
+                          <li><a href="#" class="menu__link">O нас</a></li>
+                          <li><a href="https://forum.sfera.zone" class="menu__link">Форум</a></li>
+                          <li><a href="#" class="menu__link">Партнёры</a></li>
+                          <li><a href="#" class="menu__link">Вакансии</a></li>
+                          <li><a href="#" class="menu__link">Реквизиты</a></li>
+                      </ul>                    
+                  </nav>
+                  <div class="language">
+                      <ul class="language__main">
+                          <li>
+                              <a href="#"><img src="../img/language-switcher.svg" alt="switch-language"></a>
+                              <ul class="language__dropdown">
+                                  <li><a href="#">Русский</a></li>
+                                  <li><a href="#">English</a></li>
+                              </ul>
+                          </li>
+                      </ul>                       
+                  </div>
+                </div>
+              </div>
+           </header>
+       </div>
+  
+		<div class="cd-panel-container">
+			<div class="cd-panel-content">
+        <div class="container">
+          <div class="panel__all">
+            <div class="panel__side-left">
+              <a href="#" class="cd-panel-close btn__blue">Назад</a>
+              <h2>ASAP. Устранение недочётов</h2>
+              <div class="panel__info">
+                <p>24.06.2020</p>
+                <p>Александра Данилова</p>
+              </div>
+              <div class="swipe__about">
+                <p>
+                  На днях мы представили альфа-версию многофункционального мессенджера ASAP. За несколько дней мобильное приложение успели скачать более 500 пользователей. В ходе тестирования выявлено 62 недочёта. Сейчас их в срочном порядке устраняют программисты компании.
+                </p>
+                <img src="../img/news/panel-9.png" alt="img">
+              </div>
+              <div class="swipe__main">
+                  <p>
+                    Напоминаем, что в августе этого года состоится релиз платформы приложений SFERA. Один из основных подприложений системы — это мессенджер ASAP, альфа-версия которого включает минимальный функционал. Однако к августу планируется выпуск расширенной версии. Поэтому сегодня нам важно мнение каждого. 
+                  </p>
+                  <p>
+                    Пока скачать альфа-версию ASAP могут пользователи смартфонов на базе iOS 11 в App Store. Для пользователей смартфонов на платформе Android приложение станет доступным во второй половине июля в Play Market.
+                  </p>
+                  <p>
+                    Чтобы воплотить всё это, нужно постоянно работать. Вот почему важны отзывы об альфа-версии приложения. Они позволяют выявлять ошибки и недочёты. И вы поможете создать максимально удобный и надежный мессенджер. Это действительно важно.
+                  </p>
+                  <p>
+                    Сообщайте обо всех недочётах и сбоях в чате ASAP с основателем. Указывайте модель своего телефона. А чтобы мессенджер корректно функционировал, убедитесь, что у вас установлена его последняя версия — 0.82.
+                  </p>
+                  <p>
+                    Заранее благодарим за помощь в улучшении ASAP и извиняемся за возможные неудобства в работе приложения. Надеемся на ваше понимание и обратную связь.
+                  </p>
+                </div>
+                <div class="swipe__feedback">
+                  <div class="swipe__feedback-like">
+                      <a href="#">Понравилось 15</a>
+                  </div>
+                  <div class="swipe__feedback-share">
+                      <p>Поделитесь новостью</p>
+                      <a href="#"><img src="../img/fb-icon.svg" alt="facebooke-icon"></a>
+                      <a href=""><img src="../img/vk-icon.svg" alt="vkontakte-icon"></a>
+                      <a href=""><img src="../img/tw-icon.svg" alt="twitter-icon"></a>
+                  </div>
+                </div>
+                <div class="swipe__toggle">
+                  <a href="#" class="swipe__toggle-prev btn__blue">Предыдущая статья</a>
+                  <a href="#" class="swipe__toggle-next btn__blue">Следующая статья</a>
+                </div>
+              </div>
+            <div class="panel__side-right">
+              <div class="last__news bg__black">
+                <div class="last__news-content">
+                  <p class="last__news-title">Последние новости</p>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/1-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Что нового в SFERA.
+                      </p>
+                      <p>
+                        <span class="gray-description">16.10.2020 |</span>Прежде чем перейдём к новостям, приносим извинения за задержку релиза. Мы делаем всё, чтобы уложиться в сроки. При этом придерживаемся представления о том, какой должна быть платформа. А оно меняется. Появляются новые идеи, а с ними трудности. И релиз...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/2-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Лента SFERA: связующее звено подприложений платформы
+                      </p>
+                      <p>
+                        <span class="gray-description">15.09.2020 |</span>Лента SFERA — «место», куда стекаются новости и публикации всех пользователей платформы SFERA. Как бизнес-аккаунтов, так и частных. Как тех, на которые вы подписаны, так и тех, которые рекомендуют умные алгоритмы на основе ваших интересов и оценок...
+                      </p>
+                    </div>
+                    <div class="last__news-item">
+                      <img src="../img/news/favorite/3-news.png" alt="img">
+                      <p class="news__title-blue">
+                        Дизайнеры проекта SFERA разработали интерфейс пользовательского аккаунта Work & Business
+                      </p>
+                      <p>
+                        <span class="gray-description">09.09.2020 |</span>Мы продолжаем знакомить вас с промежуточными результатами работы нашей команды.Теперь вы можете увидеть, как выглядит личная страничка пользователя приложения Work & Business. А именно — как её видит сам пользователь....
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer bg__black">
+          <div class="container">
+              <div class="footer__row-first">
+                  <div class="footer__left-first">
+                      <h2>Проект SFERA</h2>
+                      <img src="../img/SFERA-logo.png" alt="SFERA-logo">
+                  </div>
+                  <div class="footer__right-first">                    
+                      <div class="footer__right-text">     
+                          <h3>Мы не будем менять мир,<br>
+                              Мы перепишем код.
+                          </h3>                   
+                          <p class="footer__right-title">Реквизиты</p>
+                          <p>ООО «СФЕРА» <br>
+                              ул. Индустриальная, д. 2 офис 24<br>
+                              350007, г. Краснодар,<br>
+                              Российская Федерация<br>
+                              ИНН 2309172383<br>
+                              КПП 230901001<br>
+                              ОГРН 1192375072933
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer__row-second">
+                  <div class="row__second-text">
+                      <p>© Copyright 2019-2020 https://sfera.zone - Проект SFERA | Все права защищены ООО «СФЕРА»</p>                    
+                  </div>
+                  <div class="row__second-zest">
+                      <ul class="zest__list">
+                          <li>
+                              <a href="#"><img src="../img/zest-img.png" alt="zest"></a>
+                              <ul class="zest__dropdown">
+                                  <li><img src="../img/zest-drop.png" alt=""></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+          </footer>
+        </div> <!-- cd-panel-content -->
+      </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel -->
+
+
+    
+</body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/script-slide.js"></script>
+<script src="../js/script.js"></script>
+  
+</html>
